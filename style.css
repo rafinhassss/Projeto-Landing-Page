@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    color: black;
+    font-family: "inter";
+}
+
+#logo {
+    margin-left: 56px;
+    margin-top: 50px;
+}
+
+#Titulo-superior {
+    margin-left: 175px;
+    margin-top: 75px;
+    font-size: 40px;
+    line-height: 51px;
+    color: white;
+}
+
+#texto-superior {
+    margin-top: 30px;
+    margin-left: 175px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+}
+
+#menusuperior {
+    background-image: url(imagens/fundo.svg);
+    height: 560px;
+}
+
+#menuinformacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#menuinformacional > p {
+    color: #122235;
+    font-weight: bolder;
+}
+
+.icone {
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#seção-video {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.texto-informativo {
+    display: flex;
+    align-items: center;
+}
+
+#titulo-video {
+    color: #247AB0;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+}
+
+#texto-video {
+    color: black;
+}
+
+#video {
+    margin: 50px 25px 50px 100px;
+}
+
+#carrosel {
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrosel {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards {
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card {
+    margin-left: 50px;
+}
+
+#seta-esquerda {
+    display: none;
+}
+
+#bruna {
+    display: none;
+}
+
+#seta-direita {
+    margin-top: 30%;
+}
+
+.seta {
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.30s;
+}
+
+#formulario {
+    text-align: center;
+
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input {
+    width: 413px;
+    height: 53px;
+    background-color: #EAECE5;
+    margin: 20px;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: #EAECE5;
+    padding-left: 15px;
+}
+
+button {
+    width: 335px;
+    height: 53px;
+    background-color: #247BA0;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+    margin: 20px;
+    border: #247BA0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #19577e;
+    transform: translateY(-7px);
+    transition-duration: 0.30s;
+    box-shadow: 0px 15px 20px #0a233391;
+}
